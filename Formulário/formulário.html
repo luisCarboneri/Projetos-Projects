@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=width-device-width, initial-scale-1">
+        <title>Formulário da Academia</title>
+        <style>
+            .form{
+                background-color: rgba(0, 0, 0, 0.9);
+                position: absolute;
+                text-align: center;
+                color: white;
+                border-radius: 10px;
+                width: 400px;
+                height: 600px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                pad: 90px;
+            }
+            input{
+                border: none;
+                padding: 20px;
+                border-radius: 10px;
+                outline: none;
+                font-size: 20px;
+            }
+            p{
+                font-size: 13px;
+            }
+            button{
+                width: 70%;
+                height: 70px;
+                color: rgb(211, 211, 211);
+                background-color: rgb(13, 65, 13);
+                border-radius: 10px;
+                border: none;
+            }
+            button:hover{
+                width: 75%;
+                background-color: darkolivegreen;
+                border-radius: 10px;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="form">
+        <h1>Inscrição Corcel</h1>
+        <input type="text" placeholder="Nome completo">
+        <div class="cpf">
+            <br>
+            <input type="text" placeholder="CPF">
+            <div class="mail">
+                <br>
+                <input type="email" placeholder="e@mail">
+                <div class="senha">
+                    <p>Caso seja sua primeira vez crie uma senha!</p>
+                    <input type="password" placeholder="Senha">
+                    <div class="age"><br>
+                        <input type="text" placeholder="Idade">
+                        <div class="send">
+                            <br>
+                            <button>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </body>
+</html>
